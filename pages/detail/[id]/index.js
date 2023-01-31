@@ -72,7 +72,7 @@ const Detail = () => {
     
     <img src={backimg.src} className='background'/>
     </Container>
-    {/* <Footer isAbsolute={false}/> */}
+    <Footer isAbsolute={false}/>
   </>
   )
 };
@@ -81,7 +81,6 @@ const Container = styled.div`
   a{
     width: fit-content;
   }
-
 
   overflow-x: hidden;
   width: 100%;
@@ -219,7 +218,7 @@ const VisitBtn = styled.div`
   width: 328px;
   height: 50px;
   bottom: 25px;
-  /* left: 0; */
+  left: 6%;
 
   background: #75A483;
   border: 0;
